@@ -1,0 +1,1050 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+
+.navbar{
+    
+   
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+
+ align-items: center;
+ gap: 50px;
+
+}
+.navbar img{
+    width: 100px;
+    height: 50px;
+   
+    
+}
+ul.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+   
+}
+
+.reg {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-right: 110px;
+}
+
+.reg button {
+    width: 100px;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 19px;
+    border: none;
+    border-radius: 50px;
+   
+}
+
+.reg h3 {
+    margin: 15px;
+}
+
+.icon {
+    display: none;
+    cursor: pointer;
+      cursor: pointer;
+        padding: 10px;
+        
+        
+       
+  
+}
+.icon button{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    color: #f3f0f0;
+    border-radius: 20px;
+}
+
+
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+  
+}
+
+
+#loc1 img{
+   
+margin-bottom: 400px;
+
+
+}
+
+
+
+.all{
+    display: flex;
+    flex-direction: row;
+   padding-top: 150px;
+}
+.end {
+    display: flex;
+   flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+    
+}
+.end button {
+    font-size: 20px;
+    width: 250px;
+    height: 70px;
+    border-radius: 50px;
+    border: none;
+ background-color: rgb(230, 131, 186);
+ color: crimson;   
+    opacity: 0.5;
+    
+}
+
+
+
+#btns{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 100px;
+   
+}
+.logos{
+    display: flex;
+    justify-content: center;
+}
+.logos img{
+    width: 70%;
+    height: 55%;
+}
+#btns button{
+    width: 100px;
+    height: 50px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 50px;
+    color: #f3f0f0;
+    font-size: 15px;
+    
+    
+    
+}
+
+
+.cardd{
+    display: flex;
+    flex-direction: row;
+   gap: 50px;
+   margin-top: 100px;
+}
+
+.card1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     text-align: center;
+    width: 40vh;
+    height: 50vh;
+    background-color: white;
+    opacity: 0.6;
+    border-radius: 20px;
+    border: 2px dotted black;
+
+    
+}
+.card1 img{
+  width: 30%;
+  height: 20%;
+ 
+    
+}
+.card1 p{
+    text-align: center;
+    font-size: 22px;
+}
+.card2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     text-align: center;
+     width: 40vh;
+    height: 50vh;
+    background-color: white;
+    border-radius: 20px;
+    opacity: 0.6;
+    border: 2px dotted black;
+
+}
+
+
+
+
+.card2 img{
+    width: 30%;
+    height: 20%;
+   
+    
+}
+.card2 p{
+    text-align: center;
+    font-size: 22px;
+}
+.card3 {
+    display: none;
+    align-items: center;
+    justify-content: center;
+     text-align: center;
+    width: 40vh;
+    height: 50vh;
+    background-color: white;
+    opacity: 0.6;
+    border-radius: 20px;
+    border: 2px dotted black;
+
+    
+}
+.card3 img{
+  width: 30%;
+  height: 20%;
+ 
+    
+}
+.card3 p{
+    text-align: center;
+    font-size: 22px;
+}
+
+.txt{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    
+}
+
+.arrov{
+    display: flex;
+    flex-direction: row;
+
+
+  
+}
+.txt1 {
+ 
+   
+    display: flex;
+    flex-direction: column;
+   margin-top: 150px;
+  
+   font-size: 20px;
+}
+
+.ics{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70vh;
+     margin-top: 150px;
+}
+.ics button{
+    width: 10vh;
+    height: 9vh;
+  
+ 
+   
+    border-radius: 50px;
+
+}
+#btn2{
+    background-color: #fff;
+    border: none;
+    opacity: 0.5;
+    font-size: 20px;
+}
+#btn3{
+    background-color: blue;
+    border: none;
+    opacity: 0.5;
+    font-size: 20px;
+    color: #f3f0f0;
+    
+}
+
+#kart{
+    display: flex;
+    flex-direction: row;
+   
+   margin-top: 100px;
+ 
+  gap: 25px;
+}
+ .kart1{
+    width: 40vh;
+    height: 60vh;
+
+    background-color: rgb(40, 211, 162);
+    border-radius: 30px;
+    opacity: 0.8;
+    
+ }
+ .kart1 img{
+    width: 40vh;
+    height: 35vh;
+
+ }
+ .kart2{
+    width: 40vh;
+    height: 60vh;
+    background-color: rgb(40, 211, 162);
+    border-radius: 30px;
+    opacity: 0.8;
+    
+ }
+ .kart2 img{
+    width: 40vh;
+    height: 35vh;
+
+ }
+ .kart3{
+    width: 40vh;
+    height: 60vh;
+    background-color: rgb(40, 211, 162);
+    border-radius: 30px;
+    opacity: 0.8;
+    
+ }
+ .kart3 img{
+    width: 40vh;
+    height: 35vh;
+
+ }
+.yazi1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+
+
+.yazi2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.yazi3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+   margin-top: 400px;
+  
+   
+}
+.footer img{
+  
+        width: 50%;
+        height: 60%;
+    
+}
+.textt{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    text-align: center;
+  gap: 20px;
+ 
+    
+  
+}
+
+
+.leftt{
+    display: flex;
+    flex-direction: column;
+gap: 20px;
+    
+
+}
+.leftt img{
+    
+    width: 50%;
+   margin-left: 300px;
+
+}
+.btm{
+    display: flex;
+    flex-direction: row;
+gap: 20px;
+margin-right: 100px;
+ 
+  
+  
+}
+.btm p{
+    font-size: 15px;
+}
+.btm button{
+
+    width: 200px;
+   height: 150px;
+    border-radius: 30px;
+    background-color: #f3f0f0;
+   border: none;
+   opacity: 0.8;
+  color: orangered;
+}
+.btm2{
+    display: flex;
+    flex-direction: row;
+ gap: 20px;
+   
+}
+.btm2 p{
+    font-size: 15px;
+}
+
+.btm2 button{
+    
+    width: 200px;
+   height: 150px;
+    
+  border-radius: 30px;
+    background-color: #f3f0f0;
+   border: none;
+   opacity: 0.8;
+  color: orangered;
+
+}
+
+
+
+#last{
+    display: flex;
+    flex-direction: column-reverse;
+    
+  
+}
+#last img{
+    width: 40%;
+    height: 70%;
+    margin-left: 650px;
+   
+    position: absolute;
+}
+.texttt{
+    display: flex;
+    flex-direction: column;
+  padding-top: 400px;
+  margin-left: 200px;
+  gap: 20px;
+   
+}
+
+.column-button{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 100px;
+}
+.col0{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.col1{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.col2{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.col0 button{
+    width: 100px;
+    height: 90px;
+    border-radius: 30px;
+    background-color: orangered;
+    color: white;
+    font-size: 25px;
+    border: none;
+   
+}
+.col1 button{
+    width: 100px;
+    height: 90px;
+    border-radius: 30px;
+    background-color: rgb(255, 0, 111);
+    color: white;
+    font-size: 25px;
+    border: none;
+}
+.col2 button{
+    width: 100px;
+    height: 90px;
+    border-radius: 30px;
+    background-color: rgb(244, 240, 0);
+    color: white;
+    font-size: 25px;
+    border: none;
+}
+
+.bawliq{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    padding: 100px;
+}
+#b1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.orangered{
+    color: orangered;
+}
+.star {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+     gap: 20px;
+
+ 
+  
+}
+
+
+.div1{
+     width: 100%;
+ height: 50vh;
+   
+  
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+  
+  background-color: burlywood;
+ opacity: 0.6;
+}
+.div1 h2,h1{
+    padding: 10px;
+    
+}
+
+
+#write{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+align-items: center;
+    gap: 20px;
+}
+#write button{
+width: 300px;
+height: 50px;
+border-radius: 50px;
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+align-items: center;
+border: none;
+background-color: #fff;
+}
+
+
+.sosyal{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 30px;
+   
+}
+.sosyal button{
+    width: 50px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: blue;
+}
+#nav2{
+      width: 100%;
+    height: 20vh;
+    display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   
+  
+ 
+
+}
+.navvv{
+    width: 500px;
+    height: 100px;
+}
+#son{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+   
+   
+   
+   
+   
+}
+
+.one{
+    display: flex;
+    flex-direction: column;
+
+ 
+
+}
+.one button{
+    
+    display: none;
+    border-radius: 50px;
+    width: 50px;
+    height: 30px;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.two button{
+    
+    display: none;
+    border-radius: 50px;
+    width: 50px;
+    height: 30px;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.three button{
+    
+    display: none;
+    border-radius: 50px;
+    width: 50px;
+    height: 30px;
+}
+#son ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 30px;
+    
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        padding: 0 10px;
+    }
+    body{
+        background-size: cover;
+        background-position: center center;
+        
+    }
+   
+   
+    .reg button {
+        width: 80px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    
+
+    .end button {
+        width: 80%;
+        font-size:16px;
+}
+
+
+
+
+
+#write{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+align-items: center;
+   gap: 20px;
+}
+#write button{
+width: 300px;
+height: 50px;
+border-radius: 50px;
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+align-items: center;
+border: none;
+background-color: #fff;
+}
+
+
+
+
+}
+
+@media only screen and (max-width: 480px) {
+    body{
+        background-size: cover;
+        background-position: top center;
+    }
+    .container{
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        
+    }
+  
+    
+    .navbar {
+        flex-direction: row;
+     
+        
+    }
+    .ics{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+     margin-bottom: 0;
+     padding: 30px;
+     gap: 50px;
+}
+    .logos img{
+        width: 100%;
+   height: 200px;
+    }
+    .cardd{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+       
+    }
+    
+        .card3{
+            display: block;
+            flex-direction: row;
+      padding-top: 100px;
+            
+        
+    
+    
+        
+    }
+   
+        
+    .txt{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+    .txt h1{
+        text-align: center;
+    }
+    .textt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      margin-top: 100px;
+      
+    }
+  .txt1{
+    text-align: center;
+    justify-content: center;
+  }
+  #kart{
+  display: flex;
+    flex-direction: column;
+   
+   margin-top: 100px;
+ align-items: center;
+  gap: 25px;
+}
+.arrov{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+ 
+  .footer{
+    
+    display: flex;
+    flex-direction: column;
+     align-items: center; 
+ 
+  }
+
+.footer img{
+  
+        width: 100%;
+        height: 50%;
+    
+}
+
+.leftt img{
+    display: none;
+}
+  .btm{
+    display: flex;
+    flex-direction: column;
+gap: 10px;
+margin-right: 0;
+align-items: center;
+  
+  
+}
+.btm2{
+    display: flex;
+    flex-direction: column;
+
+margin-right: 0;
+
+}
+    ul.menu {
+   
+            display: none;
+            flex-direction: column;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            width: 200px;
+            position: absolute;
+            top: 50px;
+            right: 0;
+        
+    }
+
+    .reg {
+        margin-right: 0;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        display: none;
+    }
+
+    .icon {
+        display: block; 
+    }
+
+    #sc1 img {
+        width: 30%;
+        height: auto;
+    }
+
+   
+
+    #last{
+        display: flex;
+        flex-direction: column;
+      margin-top: 100px; 
+      
+    }
+    #last img{
+        width: 60%;
+        height: 50%;
+     
+      justify-content: center;
+      align-items: center;
+      margin-left: 100px;
+   
+       
+       
+       
+    }
+    .texttt{
+      text-align: center;
+        margin: 0;
+      margin-top: 50px;
+  
+       
+       
+    }
+    .col0{
+        display: block;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .col1{
+        display: block;
+        flex-direction: column;
+        gap: 50px;
+        border: 2px dashed black;
+        opacity: 0.6;
+      
+    }
+    .col2{
+        display: block;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+.column-button button{
+    display: block;
+}
+     #herf{
+        display: flex;
+
+       justify-content: center;
+       align-items: center;
+      
+    
+  
+   
+    }
+    #b1 h3{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+ 
+    .div1{
+    
+         width: 60vh;
+         height: 40vh;
+   margin:0;
+   padding: 0;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       border-radius: 80px;
+       
+      background-color: burlywood;
+    
+    }
+    
+    .bawliq{
+     gap: 100px;
+    }
+    
+    #write{
+        display: flex;
+        flex-direction: column;
+    
+    }
+  
+  
+ 
+   
+  
+    .ics{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+       
+    }
+    #btns{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 100px;
+       
+    }
+   
+    #son ul{
+        display: none;
+    }
+    #nav2{
+        flex-direction: column;
+       
+    }
+    #son{
+        flex-direction: column;
+     
+        margin-top: 150px;
+    }
+    .one {
+        display: flex;
+        flex-direction: row;
+       justify-content: space-between;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.one button{
+    display: block;
+    flex-direction: row;
+   
+}
+.two button{
+display: block;
+flex-direction: row;
+
+}
+.three button{
+display: block;
+flex-direction: row;
+
+}
+
+}
